@@ -264,3 +264,20 @@ footer a:hover{
 .contact button:hover{
     background:#e60073;
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .hero {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+}
